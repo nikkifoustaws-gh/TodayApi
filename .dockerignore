@@ -27,6 +27,9 @@ LICENSE
 appsettings.Development.json
 .claude/
 
+# Solution file
+*.sln
+
 # Misc
 *.log
 *.tmp

@@ -25,6 +25,7 @@ ENV ASPNETCORE_URLS=http://+:8080
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV DOTNET_RUNNING_IN_CONTAINER=true
 ENV TZ=America/New_York
+ENV whoisasking=Elliot
 
 # Expose port (Azure Container Apps/App Service typically uses 8080)
 EXPOSE 8080

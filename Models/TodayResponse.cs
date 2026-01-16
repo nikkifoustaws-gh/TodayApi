@@ -35,6 +35,11 @@ public sealed record TodayResponse
     /// A friendly message summarizing what's special about today.
     /// </summary>
     public required string Message { get; init; }
+
+    /// <summary>
+    /// Who is asking for today's information.
+    /// </summary>
+    public required string WhoIsAsking { get; init; }
 }
 
 /// <summary>

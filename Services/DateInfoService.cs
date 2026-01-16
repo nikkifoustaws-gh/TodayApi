@@ -107,7 +107,8 @@ public sealed class DateInfoService : IDateInfoService
             Timezone = isDst ? "America/New_York (EDT, UTC-4)" : "America/New_York (EST, UTC-5)",
             IsDaylightSavingTime = isDst,
             Events = events,
-            Message = message
+            Message = message,
+            WhoIsAsking = Environment.GetEnvironmentVariable("whoisasking") ?? "Unknown"
         };
     }
 
